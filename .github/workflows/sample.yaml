@@ -2,18 +2,17 @@
 name: sample
 
 on:
-    push:
-        branches:
-           - main
+  push:
+    branches:
+      - main
 
 jobs:
-    samplerun:
-        runs-on: ubuntu-latest
-        steps:
-            - name: avinash
-              env:
-                firstname: garikipati
-                secondname: avinash
-              run: |
-                echo hello there i'm $firstname $secondname  
-
+  samplerun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: avinash
+        env:
+          firstname: garikipati
+          secondname: avinash
+        run: |
+          echo hello there I'm $firstname $secondname  
