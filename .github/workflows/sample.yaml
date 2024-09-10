@@ -15,4 +15,4 @@ jobs:
           firstname: garikipati
           secondname: avinash
         run: |
-          echo hello there I'm $firstname $secondname  
+          echo "hello there I'm $firstname $secondname"  
